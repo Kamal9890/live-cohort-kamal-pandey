@@ -10,6 +10,7 @@ h1
 {
   text-transform: capitalize;
   margin-top: 10px;
+  font-size: x-large; 
 }
 
 #home {
@@ -19,7 +20,8 @@ h1
     font-family: 'Courier New', Courier, monospace;
     background-color: blue;
     padding: 10px;
-    margin: 10px;  
+    margin: 10px; 
+    font-size: x-large; 
 }
 
 #home a{
@@ -44,7 +46,12 @@ h1
 
 #blog h2 {
     text-transform: capitalize;
+    font-size: x-large; 
     
+}
+
+#blog p {
+    font-size: x-large; 
 }
 
 #blog img {
@@ -54,14 +61,25 @@ h1
     text-align: center;
 }
 
+.items
+{
+    font-size: x-large;
+}
+
 
 
 .second {
+
+    font-size: x-large;
    
     margin: 5px;
     padding: 10px;
     background-color: aliceblue;
     border-radius: 5px;
+}
+
+.second h1 {
+    font-size: x-large;
 }
 
  footer p {
