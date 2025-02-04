@@ -1,6 +1,6 @@
 
 .awesome {
-   background-color: aliceblue;
+   background-color:rgb(245, 243, 240);
    background-size: cover;
     padding: 10px;
 
@@ -14,7 +14,7 @@ h1
 
 #home {
     text-transform: capitalize;
-    text-transform: none;
+    text-transform: nonn;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: blue;
@@ -26,20 +26,18 @@ h1
     text-transform: capitalize;
     text-decoration: none;
     color: white;
-    line-break: normal;
-    text-transform: capitalize;
+
     margin: 12px;
-    list-style-type: circle;
+    
    
     
 }
 
 #blog {
+    margin: 5px;
     padding: 10px;
-    border-radius: 100px;
-    border-width: 2px;
-    box-sizing: content-box;
-    margin-bottom : 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
   
     
 }
@@ -59,9 +57,11 @@ h1
 
 
 .second {
-    margin: 10px;
+   
+    margin: 5px;
     padding: 10px;
-    border-spacing: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
 }
 
  footer p {
