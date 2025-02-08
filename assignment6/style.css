@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.heading h1{
+    margin-top: 20px;
+}
+.container 
+{
+    
+    height: 100%;
+    gap: 5px;
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+    margin: 10px;
+    text-align: center;
+   
+}
+
+@media (min-width:768px)
+{
+    .container {
+        grid-template-areas: "a b"
+        "c d"
+        "e f";
+    }
+}
+@media (min-width:1024px)
+{
+    .container {
+        grid-template-areas: 
+        "a b c d"
+        "e f . .";
+        flex-wrap: wrap;
+    }
+}
+
+img{
+    
+object-fit: cover;
+aspect-ratio: 0.1/0.1;
+padding: 7%;
+width: 100%;
+margin: 2%;
+margin-bottom: 10px;
+
+ 
+    
+}
+
+.images p{
+    
+}
+.images
+{
+    border: 1px solid rgb(155, 155, 133);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgb(155, 155, 133);
+    margin: 5%;
+    
+    
+
+    
+}
+
+.images:hover{
+  translate: 3px;
+  background-color: aqua;
+}
+
+.a{
+    grid-area: a;
+
+}
+.b{
+    grid-area: b;
+
+}
+.c{
+    grid-area: c;
+
+}
+.d{
+    grid-area: d;
+
+}
+.e{
+    grid-area: e;
+
+}
+.f
+{
+    grid-area: f;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    padding: 20px;
+    text-transform: capitalize;
+}
